@@ -97,7 +97,7 @@ if uploaded_image is not None:
 
     # Allow the user to enter a prompt
     # prompt = st.text_input("Introduzca un mensaje (opcional)", "")
-    prompt = 'Eres un experimentado Odontologo, diagnosticar en lo que se observa solo en la imagen, y sugerir el posible tratamiento relacionado solo a la imagen , y en el caso de necesitar medicamentos , especificar cuales, especificar el numero correcto de piezas dentaria afectada'
+    prompt = 'Eres un experimentado Odontologo, diagnosticar en lo que se observa solo en la imagen, y sugerir el posible tratamiento relacionado solo a la imagen , y en el caso de necesitar medicamentos , especificar cuales,  ES FUNDAMENTAL E  IMPORTANTE especificar el numero correcto de piezas dentaria afectada'
     # Submit button to trigger content generation
     if st.button("Generar Diagnostico", key="generate_button"):
         # Add a loading spinner while processing
