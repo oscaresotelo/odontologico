@@ -88,7 +88,7 @@ submit=st.button("Diagnosticar")
 #                importante que lo muestres en ese formato, solo deberas analizar y hacer unicamente referencia a los alimentos de la imagen, no seras creativo en la respueta,
 #             Tambien deberas generar una rutina de ejercicios para perder las calorias consumidas
 # """
-input_prompt = """ realizar diagnostico de la imagen , especificar cuantos dientes estan afectados y nombrarlos y recomendar un tratamiento, usar el sistema de numeracion FDI detalladamente
+input_prompt = """ realizar diagnostico preciso de la imagen , especificar cuantos dientes estan afectados y nombrarlos y recomendar un tratamiento, usar el sistema de numeracion FDI detalladamente, importante no ser creativo en la respuesta
 """
 ## If submit button is clicked
 
