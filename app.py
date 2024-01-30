@@ -73,7 +73,7 @@ if uploaded_file is not None:
     st.image(image, caption="Imagen Subida.", use_column_width=True)
 
 
-submit=st.button("Total de Calorias")
+submit=st.button("Diagnosticar")
 
 # input_prompt="""
 # Eres un experto nutricionista, no seras creativo en la respuesta y analizaras CUIDADOSAMENTE los  alimentos de la imagen, Importate limitarse solo a los alimentos de la imagen,
@@ -88,7 +88,7 @@ submit=st.button("Total de Calorias")
 #                importante que lo muestres en ese formato, solo deberas analizar y hacer unicamente referencia a los alimentos de la imagen, no seras creativo en la respueta,
 #             Tambien deberas generar una rutina de ejercicios para perder las calorias consumidas
 # """
-input_prompt = """ realizar diagnostico de la imagen , especificar cuantos dientes estan afectados y nombrarlos y recomendar un tratamiento, usar el sistema de numeracion FDI
+input_prompt = """ realizar diagnostico de la imagen , especificar cuantos dientes estan afectados y nombrarlos y recomendar un tratamiento, usar el sistema de numeracion FDI detalladamente
 """
 ## If submit button is clicked
 
